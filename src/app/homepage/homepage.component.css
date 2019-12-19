@@ -1,3 +1,6 @@
-body {
-  background: url(../../assets/undraw_social_strategy_1wuq.svg);
+#welcome-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
