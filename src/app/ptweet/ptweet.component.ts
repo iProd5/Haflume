@@ -9,7 +9,20 @@ export class PtweetComponent implements OnInit {
   // adding
   public barChartOptions = {
     scaleShowVerticalLines: false,
-    responsive: true
+    responsive: true,
+    title: {
+      display: true,
+      text: "Prolific Tweeters",
+      fontSize: 25
+    },
+    layout: {
+      padding: {
+        left: 50,
+        right: 0,
+        bottom: 0,
+        top: 0
+      }
+    }
   };
   public barChartLabels = [
     "user1",
