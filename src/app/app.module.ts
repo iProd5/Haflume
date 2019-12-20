@@ -9,7 +9,9 @@ import { HomepageComponent } from "./homepage/homepage.component";
 import { PtweetComponent } from "./ptweet/ptweet.component";
 import { TimelineComponent } from "./timeline/timeline.component";
 import { AboutComponent } from "./about/about.component";
-
+import { TwitterComponent } from "./twitter/twitter.component";
+import { HttpClientModule } from "@angular/common/http";
+import { TweetsService } from "./tweets.service";
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,10 +19,11 @@ import { AboutComponent } from "./about/about.component";
     HomepageComponent,
     PtweetComponent,
     TimelineComponent,
-    AboutComponent
+    AboutComponent,
+    TwitterComponent
   ],
-  imports: [BrowserModule, AppRoutingModule, ChartsModule],
-  providers: [],
+  imports: [BrowserModule, AppRoutingModule, ChartsModule, HttpClientModule],
+  providers: [TweetsService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

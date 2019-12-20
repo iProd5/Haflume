@@ -14,14 +14,6 @@ export class PtweetComponent implements OnInit {
       display: true,
       text: "Prolific Tweeters",
       fontSize: 25
-    },
-    layout: {
-      padding: {
-        left: 50,
-        right: 0,
-        bottom: 0,
-        top: 0
-      }
     }
   };
   public barChartLabels = [
@@ -31,12 +23,17 @@ export class PtweetComponent implements OnInit {
     "user4",
     "user5",
     "user6",
-    "user7"
+    "user7",
+    "user8",
+    "user9",
+    "user10",
+    "user11",
+    "user12"
   ];
   public barChartType = "bar";
   public barChartLegend = true;
   public barChartData = [
-    { data: [65, 59, 80, 81, 56, 55, 4], label: "most prolific tweeters" }
+    { data: [65, 59, 80, 81, 56, 55, 4, 32, 42, 23, 36, 57], label: "tweets" }
     // { data: [28, 48, 40, 19, 86, 27, 90], label: "Series B" }
   ];
   // ends
