@@ -17,18 +17,18 @@ export class PtweetComponent implements OnInit {
     }
   };
   public barChartLabels = [
-    "user1",
-    "user2",
-    "user3",
-    "user4",
-    "user5",
-    "user6",
-    "user7",
-    "user8",
-    "user9",
-    "user10",
-    "user11",
-    "user12"
+    "kwadw1",
+    "phoenix43",
+    "annetR5",
+    "frank Tee",
+    "Micheall",
+    "anesty",
+    "tasha",
+    "abeiku",
+    "Daina89",
+    "jonesr10",
+    "jonas",
+    "adamsHits"
   ];
   public barChartType = "bar";
   public barChartLegend = true;

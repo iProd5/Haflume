@@ -12,13 +12,13 @@ export class TimelineComponent implements OnInit {
     responsive: true
   };
   public barChartLabels = [
-    "user1",
-    "user2",
-    "user3",
-    "user4",
-    "user5",
-    "user6",
-    "user7"
+    "frank Tee",
+    "Micheall",
+    "anesty",
+    "abeiku",
+    "Daina89",
+    "jonesr10",
+    "jonas"
   ];
   public barChartType = "bar";
   public barChartLegend = true;
